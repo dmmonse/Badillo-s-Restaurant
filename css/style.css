@@ -10,6 +10,15 @@ p{
 	font-family: "Times New Roman", Times, monospace;
 }
 h2{
-	color:#FFF5CE
+	color:#FFF5CE;
 		font-family: "Times New Roman", Times, monospace;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightpink;
+  color: white;
+  text-align: center;
 }
