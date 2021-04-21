@@ -1,7 +1,19 @@
+
 h1 {
   color:cadetblue;
 	font-family: "Times New Roman", Times, monospace;
 }
+/* Body styling */
+body {
+  background: #713e94;
+  background: #D7F9FF;
+  color: #fff;
+  font-family: "Times New Roman",Times, serif;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+}
+	
 ul.a{
  font-family: "Times New Roman", Times, serif
 }
