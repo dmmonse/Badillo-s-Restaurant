@@ -26,8 +26,12 @@ h2{
 		font-family: "Times New Roman", Times, monospace;
 }
 footer {
-  width: 100%;
-  background-color: lightpink;
+	width: 100%;
+background-color: lightpink;
   color: white;
   text-align: center;
+}
+footer{
+	height: auto;
+  border: 1px solid #FF9CD0;
 }
