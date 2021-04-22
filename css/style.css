@@ -1,19 +1,8 @@
-
+/* Heading Styles */
 h1 {
   color:cadetblue;
 	font-family: "Times New Roman", Times, monospace;
 }
-/* Body styling */
-body {
-  background: #713e94;
-  background: #D7F9FF;
-  color: #fff;
-  font-family: "Times New Roman",Times, serif;
-  font-size: 27px;
-  font-weight: 300;
-  line-height: 1.65em;
-}
-	
 ul.a{
  font-family: "Times New Roman", Times, serif
 }
@@ -22,8 +11,27 @@ p{
 	font-family: "Times New Roman", Times, monospace;
 }
 h2{
-	color:#FFF5CE;
+	color:#FFDF0C;
 		font-family: "Times New Roman", Times, monospace;
+}
+
+/* Body styling */
+ body {
+  background: blanchedalmond;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+	}
+ 	
+ul.a{
+ font-family: "Times New Roman", Times, serif
+}
+p{
+	color:black;
+	font-family: "Times New Roman", Times, monospace;
 }
 footer {
 	width: 100%;
@@ -32,6 +40,16 @@ background-color: lightpink;
   text-align: center;
 }
 footer{
-	height: auto;
+	height:auto;
   border: 1px solid #FF9CD0;
 }
+navigation{
+	width: 100%;
+	color: white;
+  text-align: center;
+	
+}
+navigation{
+  background-image: linear-gradient(to right, lightblue,seagreen,yellow,pink);
+}
+  
