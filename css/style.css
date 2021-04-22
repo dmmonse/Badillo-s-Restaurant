@@ -20,14 +20,14 @@ h2{
   background: blanchedalmond;
   font-size: 27px;
   font-weight: 300;
-  line-height: 1.65em;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 40px 10px;  
+  line-height: 1.65em; 
+	 align: center;
 	}
  	
 ul.a{
- font-family: "Times New Roman", Times, serif
+ font-family: "Times New Roman", Times, serif;
+	background-image: linear-gradient(to right, lightblue,seagreen,yellow,pink);
+	align-content: center
 }
 p{
 	color:black;
@@ -39,17 +39,11 @@ background-color: lightpink;
   color: white;
   text-align: center;
 }
-footer{
-	height:auto;
-  border: 1px solid #FF9CD0;
-}
 navigation{
 	width: 100%;
 	color: white;
   text-align: center;
 	
 }
-navigation{
-  background-image: linear-gradient(to right, lightblue,seagreen,yellow,pink);
-}
+
   
