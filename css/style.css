@@ -3,30 +3,26 @@ h1 {
   color:cadetblue;
 	font-family: "Times New Roman", Times, monospace;
 }
-ul.a{
- font-family: "Times New Roman", Times, serif
+h2{
+	color:#FFDF0C;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center
 }
+
 p{
 	color:aliceblue;
 	font-family: "Times New Roman", Times, monospace;
 }
-h2{
-	color:#FFDF0C;
-		font-family: "Times New Roman", Times, monospace;
-	text-align: center
-}
 
 /* Body styling */
- body {
-  background: blanchedalmond;
+body {
+   background:almond;
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em; 
 	 align: center;
-	 }
-	
- 	
-header.hero navul lik a{
+	 }	
+body.navigation nav {
 	list-style: none;
 	display: flex;
  font-family: "Times New Roman", Times, serif;
@@ -44,11 +40,7 @@ background-color: lightpink;
   text-align: center;
 }
 
-navigation{
-	width: 100%;
-	color: white;
-  text-align: center;
-	
-}
+
+
 
   
