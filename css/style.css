@@ -16,17 +16,16 @@ p{
 
 /* Body styling */
 body {
-   background:almond;
+   background:#FFF8DC;
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em; 
-	 align: center;
+   align: center;
 	 }	
-body.navigation nav {
+ nav {
 	list-style: none;
 	display: flex;
  font-family: "Times New Roman", Times, serif;
-	background-image: linear-gradient(to right, lightblue,seagreen,yellow,pink);
 	align-content: center
 }
 p{
