@@ -1,17 +1,58 @@
 /* Heading Styles */
-h1 {
-  color:cadetblue;
+h1 a {
+	text-decoration: none;
+    color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
 }
-h2{
+section.navigation nav ul {
+	background-color:#FFB6C1;
+  	color:#FFFFFF;
+	list-style: none;
+    font-family: 'Monaco',  Monaco,monospace;
+	align-content:center;
+	text-align: justify;
+	text-decoration: none;
+}
+section.hero {
+	align-content:center;
+}
+section.hero h2{
+	text-align: center;
+	color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;
+	
+}
+section.leftpic h3{
+	background-color:#CAFFD3;
+  	color:#44C42B;
+	text-align: center;
+	font-family: "Times New Roman", Times, monospace;
+	
+}
+section.rightpic h3{
+	
+}
+section.aboutus h2{
 	color:#FFDF0C;
 	font-family: "Times New Roman", Times, monospace;
-	text-align: center
+	text-align: center;
+	background:#FFFEA5;	
 }
-
-p{
-	color:aliceblue;
+section.aboutus p{
+	color:#000000;
 	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+section.contact h2{
+	color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;
+	background:#F0F8FF;
+	text-align: center;
+}
+section.contact p {
+	color:#000000;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
 }
 
 /* Body styling */
@@ -20,23 +61,13 @@ body {
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em; 
-   align: center;
-	 }	
- nav {
-	list-style: none;
-	display: flex;
- font-family: "Times New Roman", Times, serif;
-	align-content: center
-}
-p{
-	color:black;
-	font-family: "Times New Roman", Times, monospace;
+  align-content: center
 }
 footer {
 	width: 100%;
-background-color: lightpink;
-  color: white;
-  text-align: center;
+	background-color:#FFB6C1;
+  	color:#FFFFFF;
+  	text-align: center;
 }
 
 
