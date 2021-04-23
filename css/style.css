@@ -4,6 +4,7 @@ h1 a {
     color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
 }
+/*nav styling*/
 section.navigation nav ul {
 	background-color:#FFB6C1;
   	color:#FFFFFF;
@@ -13,6 +14,7 @@ section.navigation nav ul {
 	text-align: justify;
 	text-decoration: none;
 }
+/*hero section styling*/
 section.hero {
 	align-content:center;
 }
@@ -23,6 +25,7 @@ section.hero h2{
 	font-family: "Times New Roman", Times, monospace;
 	
 }
+/*pictures styling*/
 section.leftpic h3{
 	background-color:#CAFFD3;
   	color:#44C42B;
@@ -36,6 +39,7 @@ section.rightpic h3{
 	text-align: center;
 	font-family: "Times New Roman", Times, monospace;
 }
+/*about us styling*/
 section.aboutus h2{
 	color:#FFDF0C;
 	font-family: "Times New Roman", Times, monospace;
@@ -47,6 +51,7 @@ section.aboutus p{
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
+/*contact us styling */
 section.contact h2{
 	color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
@@ -58,12 +63,14 @@ section.contact p {
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
+/*sneekpeek styling */
 section.sneekpeek h3{
 	background:#FFFEA5;	
 	color:#FFDF0C;	
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
+/*iframe styling*/
 iframe{
 	align-content: absolute;
 }
@@ -76,11 +83,112 @@ body {
   line-height: 1.65em; 
   align-content: center
 }
+/*footer styling*/
 footer {
 	width: 100%;
 	background-color:#FFB6C1;
   	color:#FFFFFF;
   	text-align: center;
+}
+/*media query*/
+@media screen and (max-width:480px){
+	h1 a {
+	display:block;
+	text-decoration: none;
+    color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;
+}
+section.navigation nav ul {
+	display:block;
+	background-color:#FFB6C1;
+  	color:#FFFFFF;
+	list-style: none;
+    font-family: 'Monaco',  Monaco,monospace;
+	align-content:center;
+	text-align: justify;
+	text-decoration: none;
+}
+section.hero {
+	display:block;
+	align-content:center;
+}
+section.hero h2{
+	display:block;
+	background-color:#96EBED ;
+	text-align: center;
+	color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;
+	
+}
+section.leftpic h3{
+	display:block;
+	background-color:#CAFFD3;
+  	color:#44C42B;
+	text-align: center;
+	font-family: "Times New Roman", Times, monospace;
+	
+}
+section.rightpic h3{
+	background-color:#CAFFD3;
+  	color:#44C42B;
+	display:block;
+	text-align: center;
+	font-family: "Times New Roman", Times, monospace;
+}
+section.aboutus h2{
+	color:#FFDF0C;
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+	background:#FFFEA5;	
+}
+section.aboutus p{
+	color:#000000;
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+section.contact h2{
+	color:#5F9EA0;
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	background:#F0F8FF;
+	text-align: center;
+}
+section.contact p {
+	color:#000000;
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+section.sneekpeek h3{
+	background:#FFFEA5;	
+	color:#FFDF0C;	
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+iframe{
+	align-content: absolute;
+	
+}
+
+/* Body styling */
+body {
+   background:#FFF8DC;
+	display:block;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em; 
+  align-content: center
+}
+footer {
+	width: 100%;
+	background-color:#FFB6C1;
+  	color:#FFFFFF;
+	display:block;
+  	text-align: center;
+}
 }
 
 
