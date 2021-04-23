@@ -3,6 +3,7 @@ h1 a {
 	text-decoration: none;
     color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
+	font-size: 55px;
 }
 /*nav styling*/
 section.navigation nav ul {
@@ -26,6 +27,10 @@ section.hero h2{
 	
 }
 /*pictures styling*/
+img{
+	max-width: 100%
+}
+
 section.leftpic h3{
 	background-color:#CAFFD3;
   	color:#44C42B;
