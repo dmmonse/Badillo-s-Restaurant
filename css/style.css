@@ -17,6 +17,7 @@ section.hero {
 	align-content:center;
 }
 section.hero h2{
+	background-color:#96EBED ;
 	text-align: center;
 	color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
@@ -30,7 +31,10 @@ section.leftpic h3{
 	
 }
 section.rightpic h3{
-	
+	background-color:#CAFFD3;
+  	color:#44C42B;
+	text-align: center;
+	font-family: "Times New Roman", Times, monospace;
 }
 section.aboutus h2{
 	color:#FFDF0C;
@@ -53,6 +57,15 @@ section.contact p {
 	color:#000000;
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
+}
+section.sneekpeek h3{
+	background:#FFFEA5;	
+	color:#FFDF0C;	
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+iframe{
+	align-content: absolute;
 }
 
 /* Body styling */
