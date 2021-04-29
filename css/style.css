@@ -17,7 +17,7 @@ section.navigation nav ul {
 }
 /*hero section styling*/
 section.hero {
-	align-content:center;
+	align-items:center;
 }
 section.hero h2{
 	background-color:#96EBED ;
@@ -31,6 +31,9 @@ img{
 	max-width: 100%
 }
 
+section.hero img{
+	align-content: center;
+}
 section.leftpic h3{
 	background-color:#CAFFD3;
   	color:#44C42B;
