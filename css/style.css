@@ -14,15 +14,33 @@ section.navigation nav ul {
 	align-content:center;
 	text-align: justify;
 	text-decoration: none;
+	display: flex;
 }
+section.navigation nav ul li a{
+	padding-top: .25rem;
+	padding-bottom:.25rem;
+	padding-left:5rem;
+	padding-right:5rem;
+	background-color: #FFB6C1;
+	text-decoration: none;
+	
+}
+section.navigation nav ul li a:hover{
+	background-color:#FFFFFF;
+	 color:#AFFF85
+	
+}
+
 /*hero section styling*/
 section.hero {
+	text-align: center;
 	align-items:center;
 }
 section.hero h2{
 	background-color:#96EBED ;
-	text-align: center;
 	color:#5F9EA0;
+	text-align: center;
+	
 	font-family: "Times New Roman", Times, monospace;
 	
 }
@@ -92,6 +110,10 @@ body {
   align-content: center
 }
 /*footer styling*/
+
+footer form label{
+	
+}
 footer {
 	width: 100%;
 	background-color:#FFB6C1;
@@ -117,8 +139,7 @@ section.navigation nav ul {
 	text-decoration: none;
 }
 section.hero {
-	display:block;
-	align-content:center;
+	display:;
 }
 section.hero h2{
 	display:block;
