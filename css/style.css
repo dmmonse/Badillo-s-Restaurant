@@ -128,14 +128,6 @@ footer {
   	color:#FFFFFF;
   	text-align: center;
 }
-/*media query*/
-@media screen and (max-width:480px){
-	h1 a {
-	display:block;
-	text-decoration: none;
-    color:#5F9EA0;
-	font-family: "Times New Roman", Times, monospace;
-}
 section.navigation nav ul {
 	display:block;
 	background-color:#FFB6C1;
@@ -276,7 +268,14 @@ footer {
 	display:block;
   	text-align: center;
 }
-
+/*media query*/
+@media screen and (max-width:480px){
+	h1 a {
+	display:block;
+	text-decoration: none;
+    color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;
+}
 
 
 
