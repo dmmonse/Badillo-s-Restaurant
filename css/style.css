@@ -1,3 +1,5 @@
+/*index'home' styling*/
+
 /* Heading Styles */
 h1 a {
 	text-decoration: none;
@@ -23,7 +25,16 @@ section.navigation nav ul li a{
 	padding-right:5rem;
 	background-color: #FFB6C1;
 	text-decoration: none;
-	
+
+}
+
+.index-link:hover{
+	color:#4DA488;
+}
+section.navigation nav ul li a:hover{
+	background-color:#FFFFFF;
+	 color:#AFFF85
+
 }
 section.navigation nav ul li a:hover{
 	background-color:#FFFFFF;
