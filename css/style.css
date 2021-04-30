@@ -25,11 +25,24 @@ section.navigation nav ul li a{
 	text-decoration: none;
 	
 }
-section.navigation nav ul li a:hover{
+section.navigation nav ul li a index:hover{
 	background-color:#FFFFFF;
-	 color:#AFFF85
-	
+	 color:#ABE5E8;
 }
+section.navigation nav ul li a catering:hover{
+	background-color:#FFFFFF;
+	 color:#AFFF85	
+}
+section.navigation nav ul li a menu:hover{
+	background-color:#FFFFFF;
+	 color:#FFFC93;	
+}
+section.navigation nav ul li a artesanias:hover{
+	background-color:#FFFFFF;
+	 color:#FEA6C7;	
+}
+
+	
 
 /*hero section styling*/
 section.hero {
@@ -40,7 +53,6 @@ section.hero h2{
 	background-color:#96EBED ;
 	color:#5F9EA0;
 	text-align: center;
-	
 	font-family: "Times New Roman", Times, monospace;
 	
 }
