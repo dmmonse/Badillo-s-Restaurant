@@ -222,7 +222,7 @@ body {
 /*catering styling*/
 	section.catering{
 		font-family: "Times New Roman", Times, monospace;
-	text-align: center;
+		text-align: center;
 	}
 	section.catering h2{
 		background-color:#AFFF85;
