@@ -25,13 +25,11 @@ section.navigation nav ul li a{
 	text-decoration: none;
 	
 }
-section.navigation nav index:hover{
+section.navigation nav ul li a:hover{
 	background-color:#FFFFFF;
-	 color:#ABE5E8;
+	 color:#AFFF85;
 }
-section.navigation nav ul li a catering:hover{
-	 color:#AFFF85	
-}
+
 section.navigation nav ul li a menu:hover{
 	
 	 color:#FFFC93;	
@@ -149,7 +147,7 @@ section.navigation nav ul {
 	text-decoration: none;
 }
 section.hero {
-	display:;
+	display:flex;
 }
 section.hero h2{
 	display:block;
@@ -221,6 +219,56 @@ body {
   line-height: 1.65em; 
   align-content: center
 }
+/*catering styling*/
+	section.catering{
+		font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+	}
+	section.catering h2{
+		background-color:#AFFF85;
+		color:#6BA44D;
+		font-size: 70px;
+  		font-weight: 700;
+	}
+	section.catering p{
+		font-size: 45px;
+  		font-weight: 450;
+	}
+	section.taquiza{
+		font-family: "Times New Roman", Times, monospace;
+		text-align: center;
+	}
+	section.taquiza h3{
+		font-size: 60px;
+  		font-weight: 600;
+	}
+	section.taquiza p{
+		font-size: 50px;
+  		font-weight: 500;
+	}
+	section.casseroles{
+		font-family: "Times New Roman", Times, monospace;
+		text-align: center;
+	}
+	section.casseroles h3{
+		font-size: 60px;
+  		font-weight: 600;
+	}
+	section.casseroles p{
+		font-size: 50px;
+  		font-weight: 500;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 footer {
 	width: 100%;
 	background-color:#FFB6C1;
@@ -228,7 +276,7 @@ footer {
 	display:block;
   	text-align: center;
 }
-}
+
 
 
 
