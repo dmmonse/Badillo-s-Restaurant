@@ -1,3 +1,32 @@
+/*nav styling*/
+section.navigation nav ul {
+	display:flex;
+	list-style: none;
+	align-content:center;
+	background-color:#FFB6C1;
+  	color:#FFFFFF;
+    font-family: 'Monaco',  Monaco,monospace;
+	
+	
+}
+section.navigation nav ul li a{
+	display: flex;
+	list-style: none;
+	align-content:center;
+	background-color: #FFB6C1;
+	color:#FFFFFF;
+	text-decoration: none;
+	
+}
+section.navigation nav ul li a:hover{
+	display: flex;
+	list-style: none;
+	align-content:center;
+	background-color:#FFFFFF;
+	 color:#E8B7E2
+}
+
+
 /*index'home' styling*/
 
 /* Heading Styles */
@@ -6,47 +35,6 @@ h1 a {
     color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
 	font-size: 55px;
-}
-/*nav styling*/
-section.navigation nav ul {
-	background-color:#FFB6C1;
-  	color:#FFFFFF;
-	list-style: none;
-    font-family: 'Monaco',  Monaco,monospace;
-	align-content:center;
-	text-align: justify;
-	text-decoration: none;
-	display: flex;
-}
-section.navigation nav ul li a{
-	padding-top: .25rem;
-	padding-bottom:.25rem;
-	padding-left:5rem;
-	padding-right:5rem;
-	background-color: #FFB6C1;
-	text-decoration: none;
-
-}
-
-.index-link:hover{
-	color:#4DA488;
-}
-section.navigation nav ul li a:hover{
-	background-color:#FFFFFF;
-	 color:#AFFF85
-
-}
-section.navigation nav ul li a:hover{
-	background-color:#FFFFFF;
-	 color:#AFFF85;
-}
-
-section.navigation nav ul li a menu:hover{
-	
-	 color:#FFFC93;	
-}
-section.navigation nav ul li a artesanias:hover{
-	 color:#FEA6C7;	
 }
 
 	
