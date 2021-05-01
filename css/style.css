@@ -165,10 +165,14 @@ section.menu-header,section.appetizers,section.plates,section.desserts,section.d
 		text-align: center;
 	}
 section.menu-header h2{
-    background-color:#FFFB82;
+    background-color:none;
 		color:#FFCE36;
 		font-size: 70px;
   		font-weight: 700;  
+}
+section.appetizers h2{
+    background-color:#EBBCFF; 
+        color:#C87AE9
 }
 
 section.appetizers img{
@@ -179,6 +183,10 @@ section.appetizers img{
     padding-right:45px; 
     
 }
+section.plates h2{
+    background-color:#BCFFF8; 
+        color:#4BAEA4;
+}  
 section.plates img{
     width: 350px;
     height: 250px;
@@ -186,12 +194,21 @@ section.plates img{
     padding-left: 45px;
     padding-right:45px;
 }
+section.desserts h2{
+    background-color:#BDFFA4; 
+        color:#7CD856;
+}  
+
 section.desserts img{
     width: 350px;
     height: 250px;
     padding:1px,1px;
     padding-left: 45px;
     padding-right:45px;
+}
+section.drinks h2{
+     background-color:#BCFFF8; 
+        color:#4BAEA4;
 }
 section.drinks img{
     width: 350px;
