@@ -2,23 +2,21 @@
 section.navigation nav ul {
 	display:flex;
 	list-style: none;
-	align-content:center;
 	background-color:#FFB6C1;
   	color:#FFFFFF;
     font-family: 'Monaco',  Monaco,monospace;
-	
-	
+    text-align: center;
 }
 section.navigation nav ul li a{
 	display: flex;
 	list-style: none;
-	align-content:center;
 	background-color: #FFB6C1;
 	color:#FFFFFF;
 	text-decoration: none;
 	padding:1px,1px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 55px;
+    padding-right:55px;
+    text-align:center;
 	
 }
 section.navigation nav ul li a:hover{
@@ -27,6 +25,7 @@ section.navigation nav ul li a:hover{
 	align-content:center;
 	background-color:#FFFFFF;
 	 color:#E8B7E2;
+    text-align:center;
 }
 /*nav styling ends*/
 
