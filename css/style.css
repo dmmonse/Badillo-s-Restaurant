@@ -37,15 +37,15 @@ section.navigation nav ul li a:hover{
     text-align:center;
 }
 /*nav styling ends*/
-/*overall body background color */
+/*overall body */
 body {
    background:#FFF8DC;
     font-size: 27px;
   font-weight: 300;
   line-height: 1.65em; 
 }
-/*overall body background color */
-/*index'home' styling*/
+/*overall body */
+/*index'home' starts*/
 /*hero section*/
 section.hero h2{
 	background-color:#96EBED ;
@@ -118,7 +118,8 @@ iframe{
 }
 /*iframe ends*/
 /*sneekpeek ends*/
-/*catering styling*/
+/*index'home' ends*/
+/*catering page starts*/
 	section.catering{
 		font-family: "Times New Roman", Times, monospace;
 		text-align: center;
@@ -156,14 +157,13 @@ iframe{
 	section.casseroles p{
 		font-size: 50px;
   		font-weight: 500;
-	}
-	
-/*catering ends*/
+	}	
+/*catering page ends*/
+/*menu page starts*/
 
-/*menu ends*/
-/*artesanias starts*/
+/*artesanias page starts*/
 
-/*artesanias ends*/
+/*artesanias page ends*/
 
 	
 	
