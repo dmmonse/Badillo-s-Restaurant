@@ -291,7 +291,12 @@ footer {
 	display:block;
   	text-align: center;
 }
-
+.btn-primary{
+    background:#60AB54;
+    color:#FFFFFF;
+    padding:5px;
+    border:0;
+}
 
 
 
