@@ -160,6 +160,47 @@ iframe{
 	}	
 /*catering page ends*/
 /*menu page starts*/
+section.menu-header,section.appetizers,section.plates,section.desserts,section.drinks{
+		font-family: "Times New Roman", Times, monospace;
+		text-align: center;
+	}
+section.menu-header h2{
+    background-color:#FFFB82;
+		color:#FFCE36;
+		font-size: 70px;
+  		font-weight: 700;  
+}
+
+section.appetizers img{
+    width: 350px;
+    height: 250px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px; 
+    
+}
+section.plates img{
+    width: 350px;
+    height: 250px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+section.desserts img{
+    width: 350px;
+    height: 250px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+section.drinks img{
+    width: 350px;
+    height: 250px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+
 
 /*artesanias page starts*/
 
