@@ -107,17 +107,15 @@ section.contact p {
 }
 /*contact us ends*/
 /*sneekpeek starts*/
+section.sneekpeek{
+    text-align: center;
+}
 section.sneekpeek h3{
 	background:#FFFEA5;	
 	color:#FFDF0C;	
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
-/*iframe starts*/
-iframe{
-	text-align:center;
-}
-/*iframe ends*/
 /*sneekpeek ends*/
 /*index'home' ends*/
 /*catering page starts*/
@@ -292,16 +290,11 @@ footer {
   	text-align: center;
 }
 .btn-primary{
-    background:#60AB54;
+    background:#5DEA61;
     color:#FFFFFF;
     padding:5px;
     border:0;
 }
-
-
-
-
-
 /*media query*/
 @media screen and (max-width:480px){
 	h1 a {
