@@ -253,7 +253,7 @@ section.accessories p{
     font-size: 50px;
   		font-weight: 500;
 }
-section.apperreal img{
+section.appereal img{
      width: 500px;
     height: 400px;
     padding:1px,1px;
@@ -266,15 +266,24 @@ section.appereal h2{
 }
 section.appereal p{
     font-size: 50px;
-  		font-weight: 500;
+font-weight: 500;
 }
-
-
-
-/*artesanias page ends*/
-
-	
-	
+section.kk img{
+    width: 450px;
+    height: 400px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+section.kk h2{
+    background-color:#81ECD2; 
+    color:#3EC6A5;
+}
+section.kk p{
+    font-size: 50px;
+    font-weight: 500;
+}
+/*artesanias page ends*/	
 footer {
 	width: 100%;
 	background-color:#FFB6C1;
