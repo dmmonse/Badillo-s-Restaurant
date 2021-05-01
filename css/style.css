@@ -45,8 +45,8 @@ section.hero h2{
 	color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;	
 }
-section.hero{
-    background-image:url('images/monterrey.jpg')
+section.hero img{
+    text-align: center;
 }
 
 
