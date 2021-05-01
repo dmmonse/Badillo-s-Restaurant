@@ -1,4 +1,4 @@
-/*nav styling*/
+/*nav styling starts*/
 section.navigation nav ul {
 	display:flex;
 	list-style: none;
@@ -16,6 +16,9 @@ section.navigation nav ul li a{
 	background-color: #FFB6C1;
 	color:#FFFFFF;
 	text-decoration: none;
+	padding:1px,1px;
+    padding-left: 20px;
+    padding-right:20px;
 	
 }
 section.navigation nav ul li a:hover{
@@ -23,9 +26,9 @@ section.navigation nav ul li a:hover{
 	list-style: none;
 	align-content:center;
 	background-color:#FFFFFF;
-	 color:#E8B7E2
+	 color:#E8B7E2;
 }
-
+/*nav styling ends*/
 
 /*index'home' styling*/
 
@@ -126,16 +129,6 @@ footer {
 	background-color:#FFB6C1;
   	color:#FFFFFF;
   	text-align: center;
-}
-section.navigation nav ul {
-	display:block;
-	background-color:#FFB6C1;
-  	color:#FFFFFF;
-	list-style: none;
-    font-family: 'Monaco',  Monaco,monospace;
-	align-content:center;
-	text-align: justify;
-	text-decoration: none;
 }
 section.hero {
 	display:flex;
