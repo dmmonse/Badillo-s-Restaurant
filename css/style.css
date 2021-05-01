@@ -39,6 +39,7 @@ section.navigation nav ul li a:hover{
 /*nav styling ends*/
 
 /*index'home' styling*/
+/*hero section*/
 section.hero h2{
 	background-color:#96EBED ;
 	text-align: center;
@@ -49,8 +50,8 @@ section.hero img{
     text-align: center;
     width:100%;
 }
-
-
+/*hero section*/
+/*highlightpics*/
 section.leftpic h3{
 	background-color:#CAFFD3;
   	color:#44C42B;
@@ -64,7 +65,8 @@ section.rightpic h3{
 	text-align: center;
 	font-family: "Times New Roman", Times, monospace;
 }
-/*about us styling*/
+/*highlightpics*/
+/*about us starts*/
 section.aboutus h2{
 	color:#FFDF0C;
 	font-family: "Times New Roman", Times, monospace;
@@ -76,7 +78,8 @@ section.aboutus p{
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
-/*contact us styling */
+/*about us ends*/
+/*contact us starts*/
 section.contact h2{
 	color:#5F9EA0;
 	font-family: "Times New Roman", Times, monospace;
@@ -88,17 +91,22 @@ section.contact p {
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
-/*sneekpeek styling */
+/*contact us ends*/
+/*sneekpeek starts*/
 section.sneekpeek h3{
 	background:#FFFEA5;	
 	color:#FFDF0C;	
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
-/*iframe styling*/
+/*iframe starts*/
 iframe{
-	align-content: absolute;
+	text-align:center;
 }
+/*iframe ends*/
+/*sneekpeek ends*/
+
+
 
 /* Body styling */
 body {
