@@ -39,30 +39,17 @@ section.navigation nav ul li a:hover{
 /*nav styling ends*/
 
 /*index'home' styling*/
-
-
-	
-
-/*hero section styling*/
-section.hero {
-	text-align: center;
-	align-items:center;
-}
 section.hero h2{
 	background-color:#96EBED ;
-	color:#5F9EA0;
 	text-align: center;
-	font-family: "Times New Roman", Times, monospace;
-	
+	color:#5F9EA0;
+	font-family: "Times New Roman", Times, monospace;	
 }
-/*pictures styling*/
-img{
-	max-width: 100%
+section.hero img{
+    text-align:center;
 }
 
-section.hero img{
-	align-content: center;
-}
+
 section.leftpic h3{
 	background-color:#CAFFD3;
   	color:#44C42B;
@@ -122,26 +109,8 @@ body {
 }
 /*footer styling*/
 
-footer form label{
 	
-}
-footer {
-	width: 100%;
-	background-color:#FFB6C1;
-  	color:#FFFFFF;
-  	text-align: center;
-}
-section.hero {
-	display:flex;
-}
-section.hero h2{
-	display:block;
-	background-color:#96EBED ;
-	text-align: center;
-	color:#5F9EA0;
-	font-family: "Times New Roman", Times, monospace;
-	
-}
+
 section.leftpic h3{
 	display:block;
 	background-color:#CAFFD3;
@@ -183,18 +152,6 @@ section.contact p {
 	font-family: "Times New Roman", Times, monospace;
 	text-align: center;
 }
-section.sneekpeek h3{
-	background:#FFFEA5;	
-	color:#FFDF0C;	
-	display:block;
-	font-family: "Times New Roman", Times, monospace;
-	text-align: center;
-}
-iframe{
-	align-content: absolute;
-	
-}
-
 /* Body styling */
 body {
    background:#FFF8DC;
@@ -245,7 +202,11 @@ body {
 	}
 	
 /*catering ends*/
-/*menu starts*/
+
+/*menu ends*/
+/*artesanias starts*/
+
+/*artesanias ends*/
 
 	
 	
@@ -254,7 +215,17 @@ body {
 	
 	
 	
+section.sneekpeek h3{
+	background:#FFFEA5;	
+	color:#FFDF0C;	
+	display:block;
+	font-family: "Times New Roman", Times, monospace;
+	text-align: center;
+}
+iframe{
+	align-content: absolute;
 	
+}	
 footer {
 	width: 100%;
 	background-color:#FFB6C1;
@@ -262,6 +233,12 @@ footer {
 	display:block;
   	text-align: center;
 }
+
+
+
+
+
+
 /*media query*/
 @media screen and (max-width:480px){
 	h1 a {
