@@ -40,6 +40,9 @@ section.navigation nav ul li a:hover{
 /*overall body background color */
 body {
    background:#FFF8DC;
+    font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em; 
 }
 /*overall body background color */
 /*index'home' styling*/
