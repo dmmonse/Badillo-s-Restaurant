@@ -156,11 +156,13 @@ iframe{
 		text-align: center;
 	}
 	section.casseroles h3{
-		font-size: 60px;
-  		font-weight: 600;
+  		 background-color:#EBBCFF; 
+        color:#C87AE9;
+        font-size: 60px;
+  		font-weight: bold;
 	}
 	section.casseroles p{
-		font-size: 50px;
+        font-size: 50px;
   		font-weight: 500;
 	}	
 /*catering page ends*/
@@ -177,7 +179,7 @@ section.menu-header h2{
 }
 section.appetizers h2{
     background-color:#EBBCFF; 
-        color:#C87AE9
+    color:#C87AE9
 }
 
 section.appetizers img{
@@ -225,6 +227,49 @@ section.drinks img{
 
 
 /*artesanias page starts*/
+section.art-header,section.accessories,section.appereal,section.kk{
+    font-family: "Times New Roman", Times, monospace;
+		text-align: center;
+}
+section.art-header h2{
+    background-color:none;
+		color:#FC5A9F;
+		font-size: 70px;
+  		font-weight: 700;
+}
+section.accessories img{
+    width: 500px;
+    height: 400px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+
+}
+section.accessories h2{
+     background-color:#EBBCFF; 
+    color:#C87AE9;
+}
+section.accessories p{
+    font-size: 50px;
+  		font-weight: 500;
+}
+section.apperreal img{
+     width: 500px;
+    height: 400px;
+    padding:1px,1px;
+    padding-left: 45px;
+    padding-right:45px;
+}
+section.appereal h2{
+    background-color:#91FFA2; 
+    color:#39CD50;
+}
+section.appereal p{
+    font-size: 50px;
+  		font-weight: 500;
+}
+
+
 
 /*artesanias page ends*/
 
